@@ -87,6 +87,12 @@ nav {
     border-radius: 10px;
     color: var(--text-primary);
     border: none;
+    background: transparent;
+}
+
+.btn:hover {
+    background: #24549f;
+    cursor: pointer;
 }
 
 .btn--hero {
@@ -148,4 +154,35 @@ nav {
 
 .quote-cite {
     align-self: flex-end;
+}
+
+#cta {
+    padding: 5rem 0;
+}
+
+.banner {
+    background: var(--bg-accent);
+    padding: 3rem 0;
+    width: 100%;
+    border-radius: 1rem;
+}
+
+.banner__container {
+    max-width: 800px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.btn--banner {
+    border: 2px solid var(--text-primary);
+}
+
+.banner__title {
+    color: var(--text-primary);
+}
+
+.banner__text {
+    color: var(--text-secondary);
 }
